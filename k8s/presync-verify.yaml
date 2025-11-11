@@ -21,7 +21,7 @@ spec:
             - "https://token.actions.githubusercontent.com"
             - "--certificate-identity-regexp"
             - "https://github.com/jmi-amit/mck-training/.+"
-            - "__IMAGE_REF__"
+            - docker.io/amitshah161189/gitops-demo-app@sha256:db046817b5b81e0e106ed8c60e9b8d46e7c1f01af0309f853b98dcd367c7844a
           env:
             - name: COSIGN_EXPERIMENTAL
               value: "true"
