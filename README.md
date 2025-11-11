@@ -1,1 +1,1 @@
-# mck-training-2
+# GitOpsDemoB
